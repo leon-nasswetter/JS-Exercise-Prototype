@@ -118,10 +118,10 @@ function Airplane(name) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. When the new keyword is used, this refers to a brand new object
+    2. When call, apply or bind is used, this is passed into the function as an argument
+    3. If a function is called with dot notation. this is the object that the function is a property of.
+    4. When a function is invoked as a free function, this is the global object.
   */
   
   
